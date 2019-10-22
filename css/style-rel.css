@@ -1,0 +1,160 @@
+﻿
+/*Common For Max 960*/
+@media only screen and (max-width: 1199px) {
+	.wp {width: 960px;}
+
+	.soBox{margin-top: 10px;}
+	.index .nav{float: none;}
+	.index .nav li{width: 12.5%;padding: 0;}
+
+	#banner .flex-direction-nav .flex-prev{left: 0;margin-left: 0;}
+	#banner .flex-direction-nav .flex-next{right: 0;margin-right: 0;}
+
+	#ToolBar{right: 0;margin-right: 0;}
+
+	/*首页*/
+	.i-partner-slider .slick-slide{}
+	
+
+}
+
+
+
+/*Common For Max 768*/
+@media only screen and (max-width: 959px) {
+	
+	.wp {width: 768px;}
+
+	#banner .slides li{height: auto;}
+	#banner .slides li img{display: block;}
+
+	/*首页*/
+	.i-course-l{padding-right: 0;}
+	.i-course-r{padding-left: 0;}
+
+	.bigImg{margin-bottom: 20px;}
+	.i-img-list li a{margin: 0;}
+
+	.tab-tit{-webkit-transform: translateZ(0);padding-right: 40px;}
+	.tab-ul{font-size: 14px;width: 1920px;-webkit-overflow-scrolling: touch;}
+	.tab-ul:after { display: block; clear: both; height: 0;}
+	.tab-tit .tab-ul{display: block;}
+	.tab-tit .more{position: absolute;right: 0;top: 0;}
+
+	.i-partner-slider .prev{left: 0;}
+	.i-partner-slider .next{right: 0;}
+
+	/*关于我们*/
+	.aboutBox .g-70{border: 0;}
+	.aboutBox .txt{padding-right: 0;}
+	.aboutBox .info{padding-left: 0;margin-top: 10px;}
+
+	/*幸福家庭-详情页*/
+
+}
+
+
+
+/*Common For Max 480*/
+@media only screen and (max-width: 767px) {
+	.wp {width: 98%;}
+
+	#hd{text-align: center;}
+	#hd .hdr{float: none;}
+
+	body{padding-top: 50px;}
+
+	#fd{padding: 20px 0;}
+	.flink{margin-bottom: 0;}
+	.fdl{padding-top: 0;}
+	.finfo{padding-left: 0;text-align: center;}
+	.fcopy{line-height: 2;}
+
+	/*首页*/
+	.i-course .i-txt-ul{margin-left: 0;margin-top: 10px;}
+
+	.i-about .con .videoBox{height: auto;}
+	.i-course .videoBox{height: auto;}
+
+	.tab-tit{height: auto;padding-right: 0;margin-bottom: 10px;}
+	.tab-tit h3{border-bottom: 1px solid #d2d2d2;}
+	.tab-tit .more{right: 10px;}
+
+	/*好习惯传播*/
+	.joinBox .pic{text-align: center;}
+
+	/*幸福家庭	*/
+	.course .videoBox{height: auto;}
+	.course .i-txt-ul{margin-left: 0;margin-top: 10px;}
+
+	/*关于我们*/
+	.aboutBox .videoBox{height: auto;}
+	.aboutBox .txt{padding: 0;}
+
+	/*幸福家庭-详情页*/
+	.det-flashBox{padding: 0;}
+	.det-flashBox .det-tab-con{height: auto;padding-bottom: 70px;}
+	.det-flashBox .videoBox{height: auto;}
+	.det-tabBox{height: auto;margin: 10px auto 0;}
+
+	/*登录--注册*/
+	.bg-clouds{background-position: center 50px;}
+	.loginBox{padding: 30px 10px;}
+
+
+}
+
+
+/*Common For Max 320*/
+@media only screen and (max-width: 479px) {
+
+	.i-img-list li{width: 100%;padding: 0;}
+
+	.video-list1{margin: 0 -5px;}
+	.video-list1 .con{margin: 0 0 20px;}
+
+}
+
+/* --------------------------- 固定屏幕样式 ---------------------------------------- */
+
+/*960*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+	 
+
+}
+
+
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+ 
+
+}
+
+
+
+/*480*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}
+
+
+
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+ 
+
+}
+
+
+
+/*240*/
+@media only screen and (max-width: 319px) {
+
+ 
+
+}

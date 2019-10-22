@@ -1,0 +1,250 @@
+﻿/* cui响应式框架使用说明
+* 按比例分配网格 5%-100%
+* .g-* 默认 大屏幕电脑
+* .p-g-* 1200以下 普通屏幕电脑
+* .t-g-*  960以下 平板电脑
+* .m-g-*  768以下 手机
+* .*-g-p0  左右间距清零，默认间距是5*2=10
+*/
+
+.g-5, .m-g-5, .t-g-5, .p-g-5, 
+.g-10, .m-g-10, .t-g-10, .p-g-10,
+.g-15, .m-g-15, .t-g-15, .p-g-15, 
+.g-20, .m-g-20, .t-g-20, .p-g-20, 
+.g-25, .m-g-25, .t-g-25, .p-g-25, 
+.g-30, .m-g-30, .t-g-30, .p-g-30, 
+.g-35, .m-g-35, .t-g-35, .p-g-35, 
+.g-40, .m-g-40, .t-g-40, .p-g-40, 
+.g-45, .m-g-45, .t-g-45, .p-g-45, 
+.g-50, .m-g-50, .t-g-50, .p-g-50, 
+.g-55, .m-g-55, .t-g-55, .p-g-55, 
+.g-60, .m-g-60, .t-g-60, .p-g-60, 
+.g-65, .m-g-65, .t-g-65, .p-g-65, 
+.g-70, .m-g-70, .t-g-70, .p-g-70, 
+.g-75, .m-g-75, .t-g-75, .p-g-75, 
+.g-80, .m-g-80, .t-g-80, .p-g-80, 
+.g-85, .m-g-85, .t-g-85, .p-g-85, 
+.g-90, .m-g-90, .t-g-90, .p-g-90, 
+.g-95, .m-g-95, .t-g-95, .p-g-95, 
+.g-100, .m-g-100, .t-g-100, .p-g-100, 
+.g-33, .m-g-33, .t-g-33, .p-g-33,
+.g-66, .m-g-66, .t-g-66,.p-g-66,
+.g-16,.m-g-16,.t-g-16,.p-g-16{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+}
+
+
+/*Common For Max 1200*/
+.g-5 {width: 5%;}
+.g-10 {width: 10%;}
+.g-15 {width: 15%;}
+.g-20 {width: 20%;}
+.g-25 {width: 25%;}
+.g-30 {width: 30%;}
+.g-35 {width: 35%;}
+.g-40 {width: 40%;}
+.g-45 {width: 45%;}
+.g-50 {width: 50%;}
+.g-55 {width: 55%;}
+.g-60 {width: 60%;}
+.g-65 {width: 65%;}
+.g-70 {width: 70%;}
+.g-75 {width: 75%;}
+.g-80 {width: 80%;}
+.g-85 {width: 85%;}
+.g-90 {width: 90%;}
+.g-95 {width: 95%;}
+.g-33 {width: 33.33333%;}
+.g-16 {width: 16.66666%;}
+.g-66 {width: 66.66667%;}
+.g-100 { clear: both; width: 100%;}
+
+/*Common For Max 960  普通电脑尺寸 */
+@media only screen and (max-width: 1199px) {
+		.p-g-5 {width: 5%;}
+		.p-g-10 {width: 10%;}
+		.p-g-15 {width: 15%;}
+		.p-g-20 {width: 20%;}
+		.p-g-25 {width: 25%;}
+		.p-g-30 {width: 30%;}
+		.p-g-35 {width: 35%;}
+		.p-g-40 {width: 40%;}
+		.p-g-45 {width: 45%;}
+		.p-g-50 {width: 50%;}
+		.p-g-55 {width: 55%;}
+		.p-g-60 {width: 60%;}
+		.p-g-65 {width: 65%;}
+		.p-g-70 {width: 70%;}
+		.p-g-75 {width: 75%;}
+		.p-g-80 {width: 80%;}
+		.p-g-85 {width: 85%;}
+		.p-g-90 {width: 90%;}
+		.p-g-95 {width: 95%;}
+		.p-g-16 {width: 16.66666%;}
+		.p-g-33 {width: 33.33333%;}
+		.p-g-66 {width: 66.66667%;}
+		.p-g-100 { clear: both; width: 100%;}
+ 
+}
+
+/*Common For Max 768 平板电脑尺寸 */
+@media only screen and (max-width: 959px) {
+
+		.t-g-5 {width: 5%;}
+		.t-g-10 {width: 10%;}
+		.t-g-15 {width: 15%;}
+		.t-g-20 {width: 20%;}
+		.t-g-25 {width: 25%;}
+		.t-g-30 {width: 30%;}
+		.t-g-35 {width: 35%;}
+		.t-g-40 {width: 40%;}
+		.t-g-45 {width: 45%;}
+		.t-g-50 {width: 50%;}
+		.t-g-55 {width: 55%;}
+		.t-g-60 {width: 60%;}
+		.t-g-65 {width: 65%;}
+		.t-g-70 {width: 70%;}
+		.t-g-75 {width: 75%;}
+		.t-g-80 {width: 80%;}
+		.t-g-85 {width: 85%;}
+		.t-g-90 {width: 90%;}
+		.t-g-95 {width: 95%;}
+		.t-g-16 {width: 16.66666%;}
+		.t-g-33 {width: 33.33333%;}
+		.t-g-66 {width: 66.66667%;}
+		.t-g-100 { clear: both; width: 100%;}
+ 
+}
+
+/*Common For Max 480 手机尺寸*/
+@media only screen and (max-width: 767px) {
+
+		.m-g-5 {width: 5%;}
+		.m-g-10 {width: 10%;}
+		.m-g-15 {width: 15%;}
+		.m-g-20 {width: 20%;}
+		.m-g-25 {width: 25%;}
+		.m-g-30 {width: 30%;}
+		.m-g-35 {width: 35%;}
+		.m-g-40 {width: 40%;}
+		.m-g-45 {width: 45%;}
+		.m-g-50 {width: 50%;}
+		.m-g-55 {width: 55%;}
+		.m-g-60 {width: 60%;}
+		.m-g-65 {width: 65%;}
+		.m-g-70 {width: 70%;}
+		.m-g-75 {width: 75%;}
+		.m-g-80 {width: 80%;}
+		.m-g-85 {width: 85%;}
+		.m-g-90 {width: 90%;}
+		.m-g-95 {width: 95%;}
+		.m-g-16 {width: 16.66666%;}
+		.m-g-33 {width: 33.33333%;}
+		.m-g-66 {width: 66.66667%;}
+		.m-g-100 { clear: both; width: 100%;}
+
+}
+
+/*Common For Max 320*/
+@media only screen and (max-width: 479px) {
+
+ 
+
+}
+
+/* -------------------- 区域设置 ------------------------- */
+/*1200*/
+@media only screen and (min-width: 1200px) {
+
+		.hide {
+		    display: none;
+		  }
+
+		.g-p0 {
+		  padding-left: 0;
+		  padding-right: 0;
+		}
+
+		.g-pl0{
+		  padding-left: 0;
+		}
+
+		.g-pr0{
+		  padding-right: 0;
+		}
+
+}
+
+/*960*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+		.hide-p {
+		    display: none;
+		  }
+
+		.p-g-p0 {
+		  padding-left: 0;
+		  padding-right: 0;
+		}
+
+		.p-g-pl0{
+		  padding-left: 0;
+		}
+
+		.p-g-pr0{
+		  padding-right: 0;
+		}
+
+}
+
+
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		.hide-t {
+		    display: none;
+		  }
+		.t-g-p0 {
+		  padding-left: 0;
+		  padding-right: 0;
+		}
+
+		.t-g-pl0{
+		  padding-left: 0;
+		}
+
+		.t-g-pr0{
+		  padding-right: 0;
+		}
+
+}
+
+
+
+/*480*/
+@media only screen and (max-width: 767px) {
+		.hide-m {
+		    display: none;
+		}
+
+		.m-g-p0 {
+		  padding-left:0;
+		  padding-right:0;
+		}
+
+		.m-g-pl0{
+		  padding-left:0;
+		}
+
+		.m-g-pr0{
+		  padding-right:0;
+		}
+}
+
+
